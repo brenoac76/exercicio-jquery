@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgba(206, 243, 235, 0.932);
+    
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 150px;
+    padding: 8px;
+    font-size: 20px; 
+    
+   
+}
+#titulo {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 55px;
+}
+
+form {
+    margin-top: 20px;
+    
+    
+}
+form button {
+    max-width: 90px;
+    width: 100%;
+    height: 35px;
+    background-color: chartreuse;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+    color: #777971;
+}
+form button:hover {
+    background-color:rgba(128, 255, 0, 0.507);
+}
+input:focus {
+    outline-color: rgba(151, 224, 208, 0.932);
+}
+#campo-tarefa {
+    max-width: 330px;
+    width: 100%;
+    height: 35px;
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: none;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+    
+}
+
+ul {
+    margin-top: 20px;
+    max-width: 300px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+ul li {
+    margin-top: 8px;
+    cursor: pointer;
+    font-size: 18px;
+}
